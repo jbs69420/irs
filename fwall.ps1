@@ -1,4 +1,4 @@
-﻿netsh advfirewall firewall add rule name="Allow LDAP tcp" dir=in action=allow protocol=TCP localport=389
+netsh advfirewall firewall add rule name="Allow LDAP tcp" dir=in action=allow protocol=TCP localport=389
 netsh advfirewall firewall add rule name="Allow LDAP udp" dir=in action=allow protocol=UDP localport=389
 netsh advfirewall firewall add rule name="Allow LDAP tcp2" dir=in action=allow protocol=TCP localport=36
 netsh advfirewall firewall add rule name="Allow global catalog" dir=in action=allow protocol=TCP localport=3268
